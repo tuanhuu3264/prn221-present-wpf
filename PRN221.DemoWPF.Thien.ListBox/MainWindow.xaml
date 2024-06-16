@@ -1,0 +1,25 @@
+﻿<Window x:Class="PRN221.DemoWPF.Thien.ListBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PRN221.DemoWPF.Thien.ListBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ListBox Name="lstOptions">
+            <CheckBox Margin="3">Option 1</CheckBox>
+            <CheckBox Margin="3">Option 2</CheckBox>
+            <CheckBox Margin="3">Option 3</CheckBox>
+        </ListBox>
+        <StackPanel Grid.Row="1" Margin="0,10,0,0">
+            <TextBlock>Current selection:</TextBlock>
+            <TextBlock Name="txtSelection" TextWrapping="Wrap"/>
+            <Button Margin="0,10,0,0" Click="cmd_CheckAllItems">Examine All Items</Button>
+        </StackPanel>
+    </Grid>
+</Window>

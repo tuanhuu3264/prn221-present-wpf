@@ -1,0 +1,4 @@
+D:\Semester7\PRN221\PRN221.DemoWPF\PRN221.DemoWPF.Tuan.AccessDatabase\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Semester7\PRN221\PRN221.DemoWPF\PRN221.DemoWPF.Tuan.AccessDatabase\obj\Debug\net8.0-windows\App.g.cs
+D:\Semester7\PRN221\PRN221.DemoWPF\PRN221.DemoWPF.Tuan.AccessDatabase\obj\Debug\net8.0-windows\PRN221.DemoWPF.Tuan.AccessDatabase_MarkupCompile.cache
+D:\Semester7\PRN221\PRN221.DemoWPF\PRN221.DemoWPF.Tuan.AccessDatabase\obj\Debug\net8.0-windows\PRN221.DemoWPF.Tuan.AccessDatabase_MarkupCompile.lref

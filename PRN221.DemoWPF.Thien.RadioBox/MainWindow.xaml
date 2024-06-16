@@ -1,0 +1,30 @@
+﻿<Window x:Class="PRN221.DemoWPF.Thien.RadioBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PRN221.DemoWPF.Thien.RadioBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="100">
+    <Grid>
+        <StackPanel>
+            <GroupBox Margin="5">
+                <StackPanel>
+                    <RadioButton>Group 1</RadioButton>
+                    <RadioButton>Group 1</RadioButton>
+                    <RadioButton>Group 1</RadioButton>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Margin="5">
+                <StackPanel>
+                    <RadioButton GroupName="Group2">Group 2
+                    </RadioButton>
+                    <RadioButton GroupName="Group2">Group 2
+                    </RadioButton>
+                    <RadioButton GroupName="Group2">Group 2
+                    </RadioButton>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+    </Grid>
+</Window>
